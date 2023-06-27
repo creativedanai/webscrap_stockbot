@@ -62,7 +62,7 @@ def main():
     
 if __name__ == "__main__":
     # mulai telegram bot
-    telegram_bot = telepot.Bot('<MASUKAN TOKEN BOT ANDA>')    
+    telegram_bot = telepot.Bot('29047186')    
     print ('[INFO] telegram bot sedang berjalan')    
     while 1:        
         time.sleep(5)   
