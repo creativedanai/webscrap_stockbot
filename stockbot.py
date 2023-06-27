@@ -15,7 +15,7 @@ def get_stock_price():
     harga terupdate dari saham tujuan (SIDO)
     """
     # hit URL menggunakan request get
-    URL = "https://www.indopremier.com/newsSmartSearch.php?code=SIDO"
+    URL = "https://merolagani.com/CompanyDetail.aspx?symbol=SIDO"
     page = requests.get(URL)
 
     # parse / uraikan konten halaman web
@@ -62,7 +62,7 @@ def main():
     
 if __name__ == "__main__":
     # mulai telegram bot
-    telegram_bot = telepot.Bot('29047186')    
+    telegram_bot = telepot.Bot('6263893805:AAHmFj7_4S_HhyxXTfqJTRBonKOMOZCw3Z0')    
     print ('[INFO] telegram bot sedang berjalan')    
     while 1:        
         time.sleep(5)   
