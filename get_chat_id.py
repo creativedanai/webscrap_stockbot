@@ -6,7 +6,7 @@ def action(msg):
     chat_id = msg['chat']['id']
     print("Chat ID:", chat_id)
     
-telegram_bot = telepot.Bot('<MASUKAN TOKEN BOT ANDA>')
+telegram_bot = telepot.Bot('29047186')
 MessageLoop(telegram_bot, action).run_as_thread()
 print ('[INFO] telegram bot sedang berjalan')    
 while 1:
