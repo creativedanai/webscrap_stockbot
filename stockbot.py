@@ -43,7 +43,7 @@ def main():
         # panggil fungsi get_stock_price()
         stock_price = get_stock_price()
         # chat_id adalah id untuk room chat dengan bot
-        chat_id = "887275636"        
+        chat_id = "872832814"        
         
         # jika harga saham berubah
         if stock_price != stock_price_before:            
