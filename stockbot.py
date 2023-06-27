@@ -15,7 +15,7 @@ def get_stock_price():
     harga terupdate dari saham tujuan (SIDO)
     """
     # hit URL menggunakan request get
-    URL = "https://merolagani.com/CompanyDetail.aspx?symbol=SIDO"
+    URL = "https://merolagani.com/CompanyDetail.aspx?symbol=NTC"
     page = requests.get(URL)
 
     # parse / uraikan konten halaman web
@@ -43,7 +43,7 @@ def main():
         # panggil fungsi get_stock_price()
         stock_price = get_stock_price()
         # chat_id adalah id untuk room chat dengan bot
-        chat_id = "872832814"        
+        chat_id = "2089180026"        
         
         # jika harga saham berubah
         if stock_price != stock_price_before:            
@@ -62,7 +62,7 @@ def main():
     
 if __name__ == "__main__":
     # mulai telegram bot
-    telegram_bot = telepot.Bot('6263893805:AAHmFj7_4S_HhyxXTfqJTRBonKOMOZCw3Z0')    
+    telegram_bot = telepot.Bot('6263893805:AAG_kwV3T3p5Fv_PxsrczwX5jBXv_kWsias')    
     print ('[INFO] telegram bot sedang berjalan')    
     while 1:        
         time.sleep(5)   
